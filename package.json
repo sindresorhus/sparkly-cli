@@ -1,0 +1,50 @@
+{
+  "name": "sparkly-cli",
+  "version": "0.0.0",
+  "description": "Generate sparklines ▁▂▃▅▂▇",
+  "license": "MIT",
+  "repository": "sindresorhus/sparkly-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "sparkly": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "spark",
+    "sparkly",
+    "line",
+    "sparkline",
+    "sparklines",
+    "unicode",
+    "data",
+    "graph",
+    "plot",
+    "ascii"
+  ],
+  "dependencies": {
+    "meow": "^3.6.0",
+    "sparkly": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.1.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
