@@ -10,14 +10,14 @@ const cli = meow(`
 	Options
 	  --min    Minimum range
 	  --max    Maximum range
-	  --style  Style for the sparklines
+	  --style  Style for the sparklines [Values: fire]
 
 	Examples
 	  $ sparkly 0 3 5 8 4 3 4 10
 	  ▁▃▄▅▃▃▃▆
 	  $ sparkly --min=0 --max=10 1 2 3 4 5
 	  ▁▂▃▄▄
-	  $ sparkly --style=fire 1 2 3 4 5 6 7 8 9 10
+	  $ sparkly --style=fire 1 2 3 4 5 6 7 8
 `);
 
 const input = cli.input;
