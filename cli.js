@@ -8,9 +8,9 @@ const cli = meow(`
 	  $ sparkly <number> [...]
 
 	Options
-	  --min   Minimum range
-	  --max   Maximum range
-	  --style Style for the sparklines
+	  --min    Minimum range
+	  --max    Maximum range
+	  --style  Style for the sparklines
 
 	Examples
 	  $ sparkly 0 3 5 8 4 3 4 10
