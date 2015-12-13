@@ -17,7 +17,7 @@ $ npm install --global sparkly-cli
 ## Usage
 
 ```
-$ sparkly-cli --help
+$ sparkly --help
 
   Usage
     $ sparkly <number> [...]
