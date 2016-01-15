@@ -21,6 +21,7 @@ $ sparkly --help
 
   Usage
     $ sparkly <number> [...]
+    $ echo <number> [...] | sparkly
 
   Options
     --min    Minimum range
@@ -33,6 +34,9 @@ $ sparkly --help
     $ sparkly --min=0 --max=10 1 2 3 4 5
     ▁▂▃▄▄
     $ sparkly --style=fire 1 2 3 4 5 6 7 8
+    ▁▂▂▃▃▄▄▅
+    $ echo 0 3 5 8 4 3 | sparkly
+    ▁▂▃▅▃▂
 ```
 
 
