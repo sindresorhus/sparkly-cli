@@ -20,8 +20,8 @@ $ npm install --global sparkly-cli
 $ sparkly --help
 
   Usage
-    $ sparkly <number> [...]
-    $ echo <number> [...] | sparkly
+    $ sparkly <number> […]
+    $ echo <number> […] | sparkly
 
   Options
     --min    Minimum range
@@ -47,4 +47,4 @@ $ sparkly --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
