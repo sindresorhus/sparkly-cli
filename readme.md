@@ -1,4 +1,4 @@
-# sparkly-cli [![Build Status](https://travis-ci.org/sindresorhus/sparkly-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/sparkly-cli)
+# sparkly-cli
 
 > Generate sparklines ▁▂▃▅▂▇
 
