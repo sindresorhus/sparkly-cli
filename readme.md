@@ -2,17 +2,15 @@
 
 > Generate sparklines ▁▂▃▅▂▇
 
-<img src="https://github.com/sindresorhus/sparkly/raw/master/screenshot.png" width="383">
+<img src="screenshot.png" width="383">
 
 [Some cool use-cases.](https://github.com/holman/spark/wiki/Wicked-Cool-Usage)
-
 
 ## Install
 
 ```
 $ npm install --global sparkly-cli
 ```
-
 
 ## Usage
 
@@ -39,12 +37,6 @@ $ sparkly --help
     ▁▂▃▅▃▂
 ```
 
-
 ## Related
 
 - [sparkly](https://github.com/sindresorhus/sparkly) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
