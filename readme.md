@@ -8,8 +8,8 @@
 
 ## Install
 
-```
-$ npm install --global sparkly-cli
+```sh
+npm install --global sparkly-cli
 ```
 
 ## Usage

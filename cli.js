@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const sparkly = require('sparkly');
-const getStdin = require('get-stdin');
+import process from 'node:process';
+import meow from 'meow';
+import sparkly from 'sparkly';
+import getStdin from 'get-stdin';
 
 const cli = meow(`
 	Usage
@@ -24,20 +24,21 @@ const cli = meow(`
 	  $ echo 0 3 5 8 4 3 | sparkly
 	  ▁▂▃▅▃▂
 `, {
+	importMeta: import.meta,
 	input: {
-		type: 'number'
+		type: 'number',
 	},
 	flags: {
 		min: {
-			type: 'number'
+			type: 'number',
 		},
 		max: {
-			type: 'number'
+			type: 'number',
 		},
 		style: {
-			type: 'string'
-		}
-	}
+			type: 'string',
+		},
+	},
 });
 
 const {input} = cli;
@@ -51,7 +52,7 @@ if (input.length > 0) {
 	console.log(sparkly(input, cli.flags));
 } else {
 	(async () => {
-		const data = (await getStdin()).match(/\d/g).map(x => parseInt(x, 10));
+		const data = (await getStdin()).match(/\d/g).map(x => Number.parseInt(x, 10));
 		console.log(sparkly(data, cli.flags));
 	})();
 }
